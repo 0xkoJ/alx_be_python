@@ -9,6 +9,8 @@ match priority:
         reminder_message = f"{task} is a medium priority task"
     case "low":
         reminder_message =f"{task} is a low priority task"
+    case _:
+        print("Invalid priority level. Please enter high, medium, or low.")
     
 if time_bound == "yes":
     reminder_message += "that requires immediate attention today!"
