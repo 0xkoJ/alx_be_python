@@ -19,4 +19,4 @@ elif time_bound == "no":
 else:
     print ("Invalid response for time-bound. Please enter yes or no.")  
 
-print(reminder_message) 
+print(f"Reminder: {reminder_message}") 
