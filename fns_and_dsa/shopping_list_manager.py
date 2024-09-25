@@ -9,6 +9,7 @@ def main():
     while True:
         display_menu()
         choice = input("Enter your choice: ")
+        choice = input("Enter your choice: ")
         if choice == '1':
             print(f"Item has been added")
         elif choice == '2':
