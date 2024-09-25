@@ -1,21 +1,17 @@
-num1 = 5
-num2 = 6
-
-def perform_operation(num1: float, num2: float, operation: str) -> float or str:
- if operation == "add":
-    return num1 + num2
- elif operation == "subtract":
-    return num1 - num2
- elif operation == "multiply":
-    return num1 * num2
- elif operation == "divide":
-    if num2 != 0:
-       return num1 / num2
+def perform_operation(num1, num2 , operation):
+    if operation == "add":
+        return num1 + num2
+    elif operation == "subtract":
+        return num1 - num2
+    elif operation == "multiply":
+        return num1 * num2
+    elif operation == "divide":
+        if num2 !=0:
+            return num1 / num2
+        else:
+            return "Error: Division by zero"
     else:
-        return "Error: Division by zero"
- else:
-    return "Invalid operation"
-
+        return "Invalid operation"
     
 def main():
     print("Arithmetic Operations")
