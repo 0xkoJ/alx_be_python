@@ -6,11 +6,11 @@ class Book:
         
     def __del__(self):
         """Destrutor that print delete message"""
-        print(f"Deleting '{self.title}'")
+        print(f"Deleting {self.title}")
     
     def __str__(self):
         """String representation of Book instance"""
-        return f"'{self.title}' by '{self.author}' published in '{self.year} '"
+        return f"{self.title} by {self.author} published in {self.year}"
     
     def __repr__(self):
         """Representation of Book instance """
