@@ -1,5 +1,5 @@
 class Calculator:
-    calculation_type = "Arithematic Operations"
+    calculation_type = "Arithemetic Operations"
     @staticmethod
     def add(a,b):
         return a + b
